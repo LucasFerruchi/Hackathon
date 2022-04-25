@@ -1,4 +1,4 @@
-/*import './Results.css'
+import './Results.css'
 import axiosClient from '../config/axiosConfig';
 import { api_key } from '../../constants/constants';
 import { useEffect } from 'react';
@@ -30,4 +30,4 @@ const Results = () => {
      );
 }
  
-export default Results ;*/
+export default Results ;
