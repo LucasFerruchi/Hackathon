@@ -13,6 +13,7 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
           <img src={imageSrc} alt="blockchain" className="slider_image" />
           <div className="slider_content">
             <h1 className="slider_title">{title}</h1>
+            
             <p>{subtitle}</p>
           </div>
         </>
@@ -20,11 +21,12 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
     } else {
       return (
         <>
-          <div className="slider_content">
+          <div className="slider_content" >
             <h1 className="slider_title">{title}</h1>
             <p>{subtitle}</p>
+            
           </div>
-          <img src={imageSrc} alt="blockchain" className="slider_image" />
+          <img src={imageSrc} alt="blockchain" className="slider_image"  />
         </>
       );
     }
