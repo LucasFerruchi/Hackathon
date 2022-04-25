@@ -1,10 +1,13 @@
-
+/*import {Container} 'react-bootstrap'
+import Results from "./components/Results/Results";
 
 
 function App() {
   return (
-    <p>hola</p>
+    <Container>
+      <Results/>
+    </Container>
   );
 }
 
-export default App;
+export default App;*/
