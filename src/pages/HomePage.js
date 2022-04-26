@@ -1,7 +1,4 @@
-
-
 import HomeMain from "../components/HomeMain/HomeMain";
-
 
 const HomePage = () => {
   return (
@@ -12,4 +9,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-  
