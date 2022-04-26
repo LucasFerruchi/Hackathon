@@ -1,5 +1,5 @@
 import { Table, Container } from "react-bootstrap";
-import './HomeMain.css';
+import "./HomeMain.css";
 
 const HomeMain = () => {
   return (
@@ -8,68 +8,72 @@ const HomeMain = () => {
   <Table striped bordered hover variant="dark">
   <thead>
     <tr>
-      <th>TIPO</th>
-      <th>Nombre</th>
-      <th>Valor Actual</th>
-      <th>Otro Dato</th>
+      <th>NOMBRE</th>
+      <th>PRECIO</th>
+      <th>24 hs %</th>
+      <th>7 dias %</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>icono</td>
-      <td>Bitcoin</td>
-      <td>$xxxxx</td>
-      <td>%0.15(icono flecha)</td>
+      <td>Dai</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Binance USD</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td colSpan={2}>Larry the Bird</td>
-      <td>@twitter</td>
+      <td>Tron</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>Bitcoin</td>
-      <td>$xxxxx</td>
-      <td>%0.15(icono flecha)</td>
+      <td>Ethereun Classic</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>5</td>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Terra USD</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>6</td>
-      <td colSpan={2}>Larry the Bird</td>
-      <td>@twitter</td>
+      <td>PancaKeSwap</td>
+      <td> $</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>7</td>
-      <td>Bitcoin</td>
-      <td>$xxxxx</td>
-      <td>%0.15(icono flecha)</td>
+      <td>Thorn Chain</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Tezos</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>9</td>
-      <td colSpan={2}>Larry the Bird</td>
-      <td>@twitter</td>
+      <td>Ape Coin</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     <tr>
-      <td>10</td>
-      <td colSpan={2}>Larry the Bird</td>
-      <td>@twitter</td>
+      <td>Unus Sed Leo</td>
+      <td>$</td>
+      <td>%</td>
+      <td>%</td>
     </tr>
     </tbody>
 </Table>
