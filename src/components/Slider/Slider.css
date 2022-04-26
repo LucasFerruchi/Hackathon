@@ -1,7 +1,7 @@
 .slider {
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 0px;
     opacity: 0;
     transform: scale(85%);
     transition: 1s;
@@ -14,6 +14,8 @@
 }
 
 .slider_image {
+    margin: 15px;
+    padding: 15px;
     width: 60%;
 }
 
@@ -29,12 +31,20 @@
 
 .slider_title {
     text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.slider_subtitle {
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
 }
 
 @media screen and (max-width: 800px) {
     .slider {
         flex-direction: column;
-        background-color: antiquewhite;
+        background-color: #051014;
     }
     .slider_image {
         width: 100%;

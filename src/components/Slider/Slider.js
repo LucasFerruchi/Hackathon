@@ -12,8 +12,8 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
         <>
           <img src={imageSrc} alt="blockchain" className="slider_image" />
           <div className="slider_content">
-            <h1 className="slider_title">{title}</h1>
-            <p>{subtitle}</p>
+            <a className="slider_title">{title}</a>
+            <p className="slider_title">{subtitle}</p>
           </div>
         </>
       );
@@ -21,8 +21,8 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
       return (
         <>
           <div className="slider_content" >
-            <h1 className="slider_title">{title}</h1>
-            <p>{subtitle}</p>
+            <a href="/" className="slider_title">{title}</a>
+            <p className="slider_title">{subtitle}</p>
             </div>
           <img src={imageSrc} alt="blockchain" className="slider_image"  />
         </>
