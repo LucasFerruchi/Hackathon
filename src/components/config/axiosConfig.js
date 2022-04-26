@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const axiosClient = axios.create({
+const axiosApi = axios.create({
     baseURL: 'https://api.covalenthq.com/v1/' 
 })
 
-export default axiosClient;
+export default axiosApi;

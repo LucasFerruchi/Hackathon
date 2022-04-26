@@ -1,1 +1,1 @@
-/*export const api_key = ''; //necesitamos la key de Covalent*/
+export const api_key = 'ckey_2ece492703d64924bec1968f88e'; 
