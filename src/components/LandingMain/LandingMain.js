@@ -6,6 +6,8 @@ import convos from "../../img/convos.jpg";
 import redDescentralizada from "../../img/redDescentralizada.jpg";
 
 
+
+
 const LandingMain = () => {
     return (  
 
