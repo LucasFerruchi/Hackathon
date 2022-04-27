@@ -9,10 +9,10 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav ">
           <Nav className=" ml-5">
-            <Nav.Link href="#features">INformacion</Nav.Link>
+            <Nav.Link href="/homePage">INformacion</Nav.Link>
             <Nav.Link href="#features">INnovacion</Nav.Link>
-            <Nav.Link href="#features">INversion</Nav.Link>
-            <Nav.Link href="/homePage">INgresar</Nav.Link>
+            <Nav.Link href="/contactPage">INversion</Nav.Link>
+            <Nav.Link href="#features">INgresar</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

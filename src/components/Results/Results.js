@@ -1,7 +1,8 @@
 import './Results.css'
 import axiosApi from '../config/axiosConfig';
 import { api_key } from '../../constants/constants';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import axiosApi from '../config/axiosConfig';
 
 const Results = () => {
   const [Results,setResults] = useState([]);
