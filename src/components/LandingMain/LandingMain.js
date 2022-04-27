@@ -21,14 +21,14 @@ const LandingMain = () => {
       />
 
       <Slider
-        imageSrc={virtual}
+        imageSrc={redDescentralizada}
         title={"INversión"}
         subtitle={"Aún con dudas de ingresar al mundo Blockchain?"}
         flipped={true}
       />
 
       <Slider
-        imageSrc={redDescentralizada}
+        imageSrc={virtual}
         title={"INgresar"}
         subtitle={"Aún con dudas de ingresar al mundo Blockchain?"}
       />
