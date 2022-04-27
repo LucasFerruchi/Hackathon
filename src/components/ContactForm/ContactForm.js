@@ -1,16 +1,14 @@
 import {Form, Button, Row, Col} from "react-bootstrap";
 import './ContactForm.css';
-//import bgImage from './video/video.mp4';
+
 
 const ContactForm = () => {
   return (
     <div className="background-contact">
       <div className="contact-portada">
         <div className="contact-portada-text">
-          <div className="background-video">
-            {/*<video autoPlay loop muted>
-              <source src={bgImage} type="video/mp4" />
-            </video>*/}
+         
+            
             <Form>
               <Row>
                 <Col>
@@ -55,7 +53,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 export default ContactForm;
