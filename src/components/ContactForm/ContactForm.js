@@ -7,9 +7,7 @@ const ContactForm = () => {
     <div className="background-contact">
       <div className="contact-portada">
         <div className="contact-portada-text">
-         
-            
-            <Form>
+          <Form>
               <Row>
                 <Col>
                   <Form.Control placeholder="Nombre" />
