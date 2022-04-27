@@ -8,8 +8,8 @@ const Results = () => {
   const [Results,setResults] = useState([]);
     const getApiCovalent = async () =>{
       try {
-        const response = await axiosApi.get ('/?api_key='+ api_key); //necesitamos la de Covalent
-        setResults(response.data)                                       //=${api_key}&xxx`); para agregar parámetros a usar
+        const response = await axiosApi.get ("https://api.covalenthq.com/v1/pricing/tickers/?quote-currency=USD&format=JSON&key=ckey_2ece492703d64924bec1968f88e"); //necesitamos la de Covalent
+        setResults(response.data)                                       
       } catch (error) {
           console.log(error);
           
@@ -25,7 +25,7 @@ const Results = () => {
     return ( 
         <>
         {Results.map(result=>
-            <li key={index}>{result.name}</li> //necesitamos saber los result que proporciona covalent
+            <li key={index}>{result.name}</li> //necesitamos aquí los result que proporciona covalent (filter)
             )}
         </>
      );
