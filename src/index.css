@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=MonteCarlo&family=Montserrat:ital,wght@1,300;1,400&family=Oswald:wght@300&family=Roboto+Serif:ital,wght@1,100;1,200&display=swap');
+:roof {
+    --InBlock-font: 'Oswald', sans-serif;
+    --title-font: 'Roboto Serif', serif;
+}
+
+.title-font {
+    font-family: var(--title-font);
+}
+
+.InBlock-title {
+    font-family: var(--InBlock-font);
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.bg-azul-oscuro {
+    background-color: #051014 !important;
 }

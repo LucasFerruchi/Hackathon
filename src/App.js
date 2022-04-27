@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Layout from "./components/Layout/Layout";
 import PublicRoute from "./routes/PublicRoute";
 import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
@@ -12,13 +12,12 @@ function App() {
   return (
     <>
       <Router>
-        <Header/>
+        <Layout>
             <Routes>
               <Route path="/" element={<PublicRoute><LandingPage /></PublicRoute>} />
-              <Route path="/homepage" element={<PublicRoute><HomePage/></PublicRoute>} />
-              <Route path="/contact" element={<ContactForm/>} />
+              <Route path="/homePage" element={<PublicRoute><HomePage/></PublicRoute>} />
             </Routes>
-        
+            </Layout>
       </Router>
     </>
   );
