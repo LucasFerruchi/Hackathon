@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 //import RegisterPage from "./pages/RegisterPage";
 //import RegisterForm from "./components/RegisterForm/RegisterForm";
 import AppCovalent from "./pages/AppCovalent";
+import CovalentTable from "./components/CovalentTable/CovalentTable"
 import Header from "./components/Header/Header";
 
 
@@ -20,6 +21,7 @@ function App() {
               <Route path="/homePage" element={<PublicRoute><HomePage/></PublicRoute>} />
           
               <Route path="/appCovalent" element={<PublicRoute><AppCovalent/></PublicRoute>} />
+              <Route path="/covalenTable" element={<CovalentTable/>} />
             </Routes>
             </Layout>
       </Router>
