@@ -9,7 +9,7 @@ const AppCovalent = () => {
   // traemos los datos de Covalent
   useEffect(() => {
     fetch(
-      "https://api.covalenthq.com/v1/pricing/tickers/?quote-currency=USD&format=JSON&key=ckey_2ece492703d64924bec1968f88e&page-size=20&page-number=0"
+      "https://api.covalenthq.com/v1/pricing/tickers/?quote-currency=USD&format=JSON&key=ckey_2ece492703d64924bec1968f88e&page-size=15&page-number=0"
     )
       .then((respuesta) => respuesta.json())
       .then((data) => {
