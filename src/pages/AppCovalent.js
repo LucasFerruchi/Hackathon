@@ -22,95 +22,39 @@ const AppCovalent = () => {
   }, []);
 
   return (
+    <Container className="bg_table ">
+  
+  
     <>
       {isLoading
         ? "Cargando"
         : datos.map((element, index) => {
             return (
+
               <>
-              <Container className="bg_table">
-  <Table striped bordered hover variant="dark" className="block_table">
+ <Table className="d-flex flex-direction justify-content-center align-items-center"striped bordered hover variant="dark">
   <thead>
     <tr>
-      <th>{}</th>
-      <th>{}</th>
-      <th>{}</th>
-      <th>{}</th>
+      <th>#</th>
+      <th>{element.contract_name}</th>
+      <th>Last Name</th>
+      <th>Username</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Dai</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
     </tr>
-    <tr>
-      <td>Binance USD</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>Tron</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>Ethereun Classic</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>Terra USD</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>PancaKeSwap</td>
-      <td> $</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>Thorn Chain</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>Tezos</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>Ape Coin</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    <tr>
-      <td>Unus Sed Leo</td>
-      <td>$</td>
-      <td>%</td>
-      <td>%</td>
-    </tr>
-    </tbody>
+    
+  </tbody>
 </Table>
-</Container>
-                {
-                  <li key={index}>
-                    {element.contract_name}-{element.contract_ticker_symbol}-{index}
-                  </li>
-                }
-              </>
-            );
-          })}
-    </>
+      </>)
+})};           
+   </>
+   </Container>
   );
 };
 
