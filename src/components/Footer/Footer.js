@@ -19,25 +19,25 @@ const Footer = () => {
                         <ul className='col-12 col-md-3 list-unstyled'>
                             <li className='md-2 footer_title'>Enlace</li>
                             <li>
-                                <Link to='/#' class='text-reset'>INformación</Link>
+                                <Link to="/homePage" class='text-reset'>INformación</Link>
                             </li>
                             <li>
-                                <Link to='/#' class='text-reset'>INnovación</Link>
+                                <Link to="/appCovalent" class='text-reset'>INnversión</Link>
                             </li>
                         </ul>
                         <ul className='col-12 col-md-3 list-unstyled'>
                             <li className=' md-2 footer_title'>Síguenos</li>
                             <li className='d-flex justify-content-between mt-4'>
-                                <a href="https://www.facebook.com//" target="_blank" className="text-reset footer_icons"> <i className="bi bi-facebook"/></a>
+                                <a href="https://www.facebook.com/" target="_blank" className="text-reset footer_icons"> <i className="bi bi-facebook"/></a>
                                 <a href="https://www.instagram.com/" target="_blank" className="text-reset footer_icons"> <i className="bi bi-instagram" /></a>
                                 <a href="https://twitter.com/" target="_blank" className="text-reset footer_icons"> <i className="bi bi-twitter"/></a>
-                                <a href="https://www.youtube.com//" target="_blank" className="text-reset footer_icons"> <i className="bi bi-youtube"/></a>
+                                <a href="https://www.youtube.com/" target="_blank" className="text-reset footer_icons"> <i className="bi bi-youtube"/></a>
                                 
                             </li>
                         </ul>
                         <hr className="mb-1 mt-1" />
                          <div className="mt-4">
-                            <p className="container mx-5">Realizada por LucasFerruchi y FerTruji <a className="text-reset" href="https://github.com/"><i className="bi bi-github mx-5 footer_icons"  target="_blank"/></a> </p>
+                            <p className="container mx-5">Realizada por LucasFerruchi y FerTruji <a className="text-reset" href="https://github.com/" target="_blank"><i className="bi bi-github mx-5 footer_icons"  target="_blank"/></a> </p>
                             
                          </div>
 
