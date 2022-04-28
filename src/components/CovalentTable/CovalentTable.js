@@ -36,7 +36,7 @@ const AppCovalent = () => {
 
               <>
  <Table striped bordered hover variant="dark">
-  <thead>
+ <thead>
     <tr>
       <th>NOMBRE</th>
       <th>LOGO</th>
