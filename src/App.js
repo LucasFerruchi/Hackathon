@@ -1,13 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import PublicRoute from "./routes/PublicRoute";
-import LandingPage from "./pages/LandingPage";
-import HomePage from "./pages/HomePage";
-//import RegisterPage from "./pages/RegisterPage";
-//import RegisterForm from "./components/RegisterForm/RegisterForm";
 import AppCovalent from "./pages/AppCovalent";
+import FormPage from "./pages/FormPage";
+import HomePage from "./pages/HomePage";
+import LandingPage from "./pages/LandingPage";
 import CovalentTable from "./components/CovalentTable/CovalentTable"
-import Header from "./components/Header/Header";
 
 
 
@@ -17,10 +15,11 @@ function App() {
       <Router>
         <Layout>
             <Routes>
+              <Route path="/appCovalent" element={<PublicRoute><AppCovalent/></PublicRoute>} />
+              <Route path="/formPage" element={<PublicRoute><FormPage/></PublicRoute>} />
               <Route path="/" element={<PublicRoute><LandingPage /></PublicRoute>} />
               <Route path="/homePage" element={<PublicRoute><HomePage/></PublicRoute>} />
           
-              <Route path="/appCovalent" element={<PublicRoute><AppCovalent/></PublicRoute>} />
               <Route path="/covalenTable" element={<CovalentTable/>} />
             </Routes>
             </Layout>

@@ -11,7 +11,7 @@ const Header = () => {
           <Nav className=" ml-5">
             <Nav.Link href="/homePage">INformacion</Nav.Link>
             <Nav.Link href="/appCovalent">INnovacion</Nav.Link>
-            <Nav.Link href="/registerPage">INversion</Nav.Link>
+            <Nav.Link href="/formPage">INversion</Nav.Link>
             <Nav.Link href="#features">INgresar</Nav.Link>
           </Nav>
         </Navbar.Collapse>

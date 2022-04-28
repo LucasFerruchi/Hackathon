@@ -25,8 +25,8 @@ const AppCovalent = () => {
   }, []);
 
   return (
-    <Container className="table_cov">
-      <Table striped bordered hover variant="dark">
+    <Container className="bg_table">
+      <Table striped bordered hover variant="dark" className="block_table">
         <thead>
           <tr>
             <th>NOMBRE</th>

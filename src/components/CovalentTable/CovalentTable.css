@@ -1,5 +1,18 @@
-.table_cov {
+.bg_table {
+    background-image: url("../../img/Logo/blockchainicone.png");
+    background-size: cover;
+    width: 100vw;
     height: auto;
     margin-top: 3rem;
-    opacity: 0, 8 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_table {
+    height: 60vh;
+    margin-top: 2vh;
+    padding: 10px;
+    border-width: 0px;
+    opacity: 0.8 !important;
 }
