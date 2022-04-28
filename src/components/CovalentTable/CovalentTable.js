@@ -35,51 +35,51 @@ const AppCovalent = () => {
             return (
 
               <>
- <Table className="d-flex flex-direction justify-content-center align-items-center"striped bordered hover variant="dark">
+ <Table striped bordered hover variant="dark">
   <thead>
     <tr>
-      <th>{element.contract_name}</th>
-      <th>{element.contract_}</th>
-      <th>Last Name</th>
-      <th>Username</th>
+      <th>NOMBRE</th>
+      <th>LOGO</th>
+      <th>TASA DE COTIZACION</th>
+      <th>RANGO</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>{element.contract_name}</td>
+      <td>{element.contract_logo_url}</td>
+      <td>{element.contract_quote_rate}</td>
+      <td>{element.contact_rank5}</td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td>1</td>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </Table>
