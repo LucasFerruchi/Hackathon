@@ -3,8 +3,10 @@ import Layout from "./components/Layout/Layout";
 import PublicRoute from "./routes/PublicRoute";
 import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
-import ContactPage from "./pages/ContactPage";
-import ContactForm from "./components/ContactForm/ContactForm";
+//import RegisterPage from "./pages/RegisterPage";
+//import RegisterForm from "./components/RegisterForm/RegisterForm";
+import AppCovalent from "./pages/AppCovalent";
+import CovalentTable from "./components/CovalentTable/CovalentTable"
 import Header from "./components/Header/Header";
 
 
@@ -17,8 +19,9 @@ function App() {
             <Routes>
               <Route path="/" element={<PublicRoute><LandingPage /></PublicRoute>} />
               <Route path="/homePage" element={<PublicRoute><HomePage/></PublicRoute>} />
-              <Route path="/contactPage" element={<PublicRoute><ContactPage/></PublicRoute>} />
-              <Route path="/contactform" element={<ContactForm/>} />
+          
+              <Route path="/appCovalent" element={<PublicRoute><AppCovalent/></PublicRoute>} />
+              <Route path="/covalenTable" element={<CovalentTable/>} />
             </Routes>
             </Layout>
       </Router>

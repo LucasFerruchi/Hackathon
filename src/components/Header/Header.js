@@ -10,8 +10,8 @@ const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav ">
           <Nav className=" ml-5">
             <Nav.Link href="/homePage">INformacion</Nav.Link>
-            <Nav.Link href="#features">INnovacion</Nav.Link>
-            <Nav.Link href="/contactPage">INversion</Nav.Link>
+            <Nav.Link href="/appCovalent">INnovacion</Nav.Link>
+            <Nav.Link href="/registerPage">INversion</Nav.Link>
             <Nav.Link href="#features">INgresar</Nav.Link>
           </Nav>
         </Navbar.Collapse>
