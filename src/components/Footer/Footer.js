@@ -36,10 +36,10 @@ const Footer = () => {
                             </li>
                         </ul>
                         <hr className="mb-1 mt-1" />
-                        <div className="container">
-                            <p className="text-center">Realizada por...</p>
-
-                        </div>
+                         <div className="mt-4">
+                            <p className="container mx-5">Realizada por LucasFerruchi y FerTruji <a className="text-reset" href="https://github.com/"><i className="bi bi-github mx-5 footer_icons"  target="_blank"/></a> </p>
+                            
+                         </div>
 
 
 

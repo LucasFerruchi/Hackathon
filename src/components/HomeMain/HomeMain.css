@@ -15,3 +15,34 @@
     border-width: 0px;
     opacity: 0.8 !important;
 }
+
+.home-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+    width: 10rem;
+    padding-bottom: 1rem;
+}
+
+.card-title {
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}

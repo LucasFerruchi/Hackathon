@@ -1,10 +1,11 @@
-import {Form, Button, Row, Col} from "react-bootstrap";
+import {Form, Button, Row, Col, Container} from "react-bootstrap";
 import './ContactForm.css';
 
 
 const ContactForm = () => {
   return (
-    <div className="background-contact">
+    <Container className="bg_form">
+    <div className=" block_form">
       <div className="contact-portada">
         <div className="contact-portada-text">
           <Form>
@@ -47,10 +48,11 @@ const ContactForm = () => {
                 ENVIAR FORMULARIO
               </Button>
             </Form>
-            ;
+            
           </div>
         </div>
       </div>
+      </Container>
     
   );
 };
